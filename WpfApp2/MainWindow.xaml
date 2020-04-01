@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Динамически перемещающиеся поля" Height="450" Width="800">
+    <Grid>
+        <WrapPanel Orientation="Horizontal">
+            <TextBlock Background="AliceBlue" Padding="10" Margin="10">TextBlock1</TextBlock>
+            <TextBlock Background="AntiqueWhite" Padding="10" Margin="10">TextBlock2</TextBlock>
+            <TextBlock Background="Aqua" Padding="10" Margin="10">TextBlock3</TextBlock>
+            <TextBlock Background="Beige" Padding="10" Margin="10">TextBlock4</TextBlock>
+            <TextBlock Background="Azure" Padding="10" Margin="10">TextBlock5</TextBlock>
+            <TextBlock Background="Black" Foreground="AntiqueWhite" Padding="10" Margin="10">TextBlock6</TextBlock>
+            <TextBlock Background="Bisque" Padding="10" Margin="10">TextBlock7</TextBlock>
+            <TextBlock Background="Aquamarine" Padding="10" Margin="10">TextBlock8</TextBlock>
+        </WrapPanel>
+    </Grid>
+</Window>
